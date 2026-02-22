@@ -14,17 +14,20 @@ GuardianEye is a real-time security application built with Python and OpenCV. It
 ## 🛠️ Installation
 
 1. Clone the Repository
-    bash
-    git clone [https://github.com/YOUR_USERNAME/GuardianEye.git](https://github.com/YOUR_USERNAME/GuardianEye.git)
-    cd GuardianEye
 
-2. Install Dependencies
+        bash
+        git clone [https://github.com/YOUR_USERNAME/GuardianEye.git](https://github.com/YOUR_USERNAME/GuardianEye.git)
+        cd GuardianEye
+
+3. Install Dependencies
     Ensure you have Python 3.x installed. Install the required libraries using:
+
         Bash
         pip install -r requirements.txt
 
-3. Configuration
+4. Configuration
     For security, this project uses environment variables. Create a .env file in the root directory and add your credentials:
+
         Plaintext
         TWILIO_SID=your_twilio_sid
         TWILIO_AUTH_TOKEN=your_twilio_auth_token
@@ -34,6 +37,7 @@ GuardianEye is a real-time security application built with Python and OpenCV. It
 
 
 🖥️ Usage
+
     1. Run the application:
         Bash
         python theft1.py
@@ -50,6 +54,7 @@ GuardianEye is a real-time security application built with Python and OpenCV. It
     7. Press Q in the camera window to stop monitoring.
 
 📦 Dependencies
+
     opencv-python - Computer vision and camera handling.
     Pillow - Image processing for the GUI.
     twilio - SMS gateway integration.
